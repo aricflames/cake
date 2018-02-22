@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Videogame Cake</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="img\favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link href="css/owl.theme.default.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <div id="name"> <h1>Videogaming desserts Open 24hours</h1> </div>
+      <div id="logo"> <img src="img/cake3.png" alt="Cake"> </div>
+    </header>
+
+    <main>
+      <div id="carousel">
+        <div class="owl-carousel owl-theme">
+          <div><img src="img/gooba.jpg" alt="Cake"></div>
+          <div><img src="img/halo.jpg" alt="Cake"></div>
+          <div><img src="img/kirby.jpg" alt="Cake"></div>
+          <div><img src="img/mario.jpg" alt="Cake"></div>
+          <div><img src="img/turtles.jpg" alt="Cake"></div>
+        </div>
+      </div>
+
+      <div id="food">
+        <h1><a href="food.html">LINK TO FOOD!!</a> </h1>
+      </div>
+
+      <div id="directions"> <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d3176275.729315677!2d-158.92984182948473!3d22.40189531628247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m3!3m2!1d24.41948417756587!2d-157.42398862861586!4m0!5e0!3m2!1sen!2sus!4v1518538930537" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </main>
+
+    <footer>
+      <div id="social"> <h1> contact us at 111-111-thot <a href="blank.html"> Other social & contact info</a> </h1> </div>
+      <div id="credits"> <h3>Made by Flames.</h3> </div>
+      <div id="quotes"> <h2>Other peoples quotes about us.</h2>
+        <p>Most relistic food in the world.</p>
+        <p>Gaming food for everyone.</p>
+        <p>Video games for life.</p>
+        </div>
+    </footer>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <!-- owl carousel stuff -->
+  <script src="js/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.owl-carousel').owlCarousel({
+          dots: true,
+          items: 1,
+          loop: true,
+          margin: 10,
+          nav: false,
+          autoplay: true,
+          autoplayTimeout: 3000,
+          autoplayHoverPause:false
+        });
+    });
+  </script>
+</body>
+</html>

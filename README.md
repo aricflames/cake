@@ -1,1 +1,1 @@
-# cake
+# responsive-grid-template
