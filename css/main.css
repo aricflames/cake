@@ -240,10 +240,12 @@ a:visited {
 
 a:hover {
     color: #4c0000;
+    opacity: 0.7;
 }
 
 a:active {
     color: #4c0000;
+}
 
 /* forms */
 
