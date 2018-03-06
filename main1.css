@@ -43,8 +43,6 @@ main {
   grid-row-gap: 15px;
   grid-template-columns: 1fr;
   grid-template-areas:
-    "carousel"
-    "directions"
     "food";
 }
 
@@ -55,9 +53,7 @@ footer {
   grid-row-gap: 15px;
   grid-template-columns: 1fr;
   grid-template-areas:
-  "social"
-    "credits"
-    "quotes";
+    "order";
 }
 
 /* tablets and small laptops */
@@ -70,17 +66,15 @@ footer {
   }
 
   main {
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      "carousel carousel"
-      "directions food";
+        "food food";
   }
 
   footer {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-    "social credits"
-    "quotes quotes";
+    "order order";
   }
 }
 
@@ -95,20 +89,19 @@ footer {
   main {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      "carousel carousel"
-      "directions food";
+      "food food";
   }
 
   footer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-    "social credits quotes"
+    "order order";
   }
 }
 
 div {
   /*border: 1px solid #999999; /* disable this line once layout works */
-  /*text-align: center; /* disable this line once layout works */
+  text-align: center; /* disable this line once layout works */
 }
 
 main div {
@@ -123,30 +116,12 @@ div#logo {
   grid-area: logo;
 }
 
-div#carousel {
-grid-area: carousel;
-overflow: hidden;
-}
-
-div#directions {
-  grid-area: directions;
-}
-
 div#food{
   grid-area: food;
 }
 
-div#social {
-   grid-area: social;
-}
-
-div#credits {
-  grid-area: credits;
-}
-div#quotes {
-  grid-area: quotes;
-}
-
+div#order {
+   grid-area: order;
 /*********** End Layout Styles ***********/
 
 
@@ -201,7 +176,7 @@ li {
 /* tables */
 
 table {
-max-width: 100%;
+
 }
 
 caption {
@@ -222,11 +197,7 @@ td {
 
 /* images */
 img {
-max-width: 100%;
-}
-.center{
-   display: block;
-   margin: 0 auto;
+
 }
 
 iframe{
@@ -250,7 +221,6 @@ a:hover {
 a:active {
     color: #4c0000;
 }
-
 
 /* forms */
 
